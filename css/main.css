@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway';
 }
 
 img {
@@ -32,12 +33,6 @@ img {
 .container:before, .container:after {
   content: " ";
   display: table;
-}
-
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .container:after {
@@ -71,3 +66,81 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+.inline-block{
+  display: inline-block;
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  width: 100%;
+  padding: 15px 160px 15px 140px;
+  z-index: 1000;
+}
+
+header figure img {
+  width: 70px;
+}
+header figure {
+  float: right;
+}
+header div {
+  margin-top: 19px;
+}
+header div a {
+  margin: 0 20px;
+  font-weight: 700;
+}
+#intro{
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(../assets/images/bg-home.jpg); 
+}
+#intro div{
+  padding: 60px 0 90px 0;
+}
+#intro h2 {
+  font-size: 24px;
+}
+#intro h1 {
+  font-size: 53px;
+}
+#intro a {
+  padding: 14px;
+  background-color: rgb(46, 204, 113);
+  margin-top: 50px;
+  display: inline-block;
+}
+#services {
+  color: #fff;
+  background-color: salmon;
+  padding: 70px 0;
+  text-align: center;
+}
+#services div div {
+  display: inline-block;
+  width: 30%;
+}
+#services div div img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+#services h6, #services h5{
+  margin: 0
+}
+#services h4{
+  margin-bottom: 70px;
+}
+
+#work {
+  padding: 70px 0;
+  text-align: center;
+}
+#work img:first-child {
+  width: 80%;
+}
